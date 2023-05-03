@@ -1,0 +1,22 @@
+{
+  "data": {
+    "internal_name": "addon_loader",
+    "display_name": "Guild Wars 2 Addon Loader",
+    "description": "Core addon loading library for Guild Wars 2.",
+    "tooltip": "Core addon loading library for Guild Wars 2.",
+    "authors": "megai2",
+    "website": "https://github.com/gw2-addon-loader/loader-core",
+    "host_type": "github",
+    "host_url": "https://api.github.com/repos/gw2-addon-loader/loader-core/releases/latest",
+    "download_type": "archive",
+    "install_mode": "root",
+    "arc_modinfo": {
+      "arc_plugin_name": ""
+    },
+    "required_addons": [],
+    "conflicts": []
+  },
+  "schema": {
+    "template_ver": 1
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "data": {
+    "internal_name": "arcdps",
+    "display_name": "ArcDPS",
+    "description": "ArcDPS allows the player to view their DPS and offers other tools like FPS and ping metrics. By default, this menu can be made visible in-game with the keybind Alt+Shift+H.\n\nFor more information, click the link above to visit the website.",
+    "tooltip": "Displays a DPS meter - by DeltaConnected",
+    "authors": "DeltaConnected",
+    "website": "https://www.deltaconnected.com/arcdps",
+    "host_type": "standalone",
+    "host_url": "https://www.deltaconnected.com/arcdps/gw2addon_arcdps.dll",
+    "download_type": "dll",
+    "install_mode": "binary",
+    "arc_modinfo": {
+      "arc_plugin_name": ""
+    },
+    "required_addons": [
+      "addon_loader"
+    ],
+    "conflicts": []
+  },
+  "schema": {
+    "template_ver": 1
+  }
+}

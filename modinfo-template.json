@@ -1,0 +1,22 @@
+{
+  "data": {
+    "internal_name": "",
+    "display_name": "",
+    "description": "",
+    "tooltip": "",
+    "authors": "",
+    "website": "",
+    "host_type": "",
+    "host_url": "",
+    "download_type": "",
+    "install_mode": "",
+    "arc_modinfo": {
+      "arc_plugin_name": ""
+    },
+    "required_addons": [],
+    "conflicts": []
+  },
+  "schema": {
+    "template_ver": 1
+  }
+}
