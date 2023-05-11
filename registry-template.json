@@ -1,0 +1,35 @@
+{
+  "data": [
+    {
+      "internal_name": "",
+      "display_name": "",
+      "description": "",
+      "tooltip": "",
+      "authors": "",
+      "website": "",
+      "hosts": [
+        {
+          "host_type": "",
+          "host_url": ""
+        },
+        {
+          "host_type": "",
+          "host_url": ""
+        }
+      ],
+      "download_type": "",
+      "install_mode": "",
+      "required_addons": [],
+      "conflicts": [],
+      "additional": {
+        "arc_modinfo": {
+          "arc_plugin_name": ""
+        }
+      }
+    }
+  ],
+  "schema": {
+    "template_name": "aw2schema",
+    "template_ver": 1
+  }
+}
