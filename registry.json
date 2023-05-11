@@ -42,7 +42,7 @@
     }
   ],
   "schema": {
-    "template_name": "aw2schema",
+    "template_name": "https://github.com/Addon-Wars-2/AddonsLib/registry-template.json",
     "template_ver": 1
   }
 }
