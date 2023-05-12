@@ -2,7 +2,7 @@
   "data": [
     {
       "internal_name": "addon_loader",
-      "display_name": "Guild Wars 2 Addon Loader",
+      "display_name": "Addon Loader",
       "description": "Core addon loading library for Guild Wars 2.",
       "tooltip": "Core addon loading library for Guild Wars 2.",
       "authors": "megai2",
@@ -23,7 +23,7 @@
       "internal_name": "arcdps",
       "display_name": "ArcDPS",
       "description": "ArcDPS allows the player to view their DPS and offers other tools like FPS and ping metrics. By default, this menu can be made visible in-game with the keybind Alt+Shift+H.\n\nFor more information, click the link above to visit the website.",
-      "tooltip": "Displays a DPS meter - by DeltaConnected",
+      "tooltip": "Displays a DPS meter.",
       "authors": "DeltaConnected",
       "website": "https://www.deltaconnected.com/arcdps",
       "hosts": [
