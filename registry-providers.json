@@ -3,7 +3,7 @@
     {
       "name": "AW2_AddonsLib",
       "type": "github",
-      "link": "https://api.github.com/repos/Addon-Wars-2/AddonsLib/contents/registry.json"
+      "link": "https://raw.githubusercontent.com/Addon-Wars-2/AddonsLib/main/registry.json"
     }
   ]
 }
