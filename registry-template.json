@@ -23,7 +23,8 @@
       "conflicts": [],
       "additional": {
         "arc_modinfo": {
-          "arc_plugin_name": ""
+          "arc_plugin_name": "",
+          "arc_plugin_extension": ""
         }
       }
     }
