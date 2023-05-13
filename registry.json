@@ -42,7 +42,7 @@
     },
     {
       "internal_name": "arcdps_bhud",
-      "display_name": "ArcDPS Blish HUD plug-in",
+      "display_name": "ArcDPS Blish HUD",
       "description": "This addon provides data from the Arcdps Combat API to the Blish HUD overlay, where it can be used by different Blish HUD modules for optimization and additional functionality.",
       "tooltip": "Uses the ArcDPS Combat API to provide data to Blish HUD.",
       "authors": "Greaka",
@@ -60,17 +60,15 @@
       ],
       "conflicts": [],
       "additional": {
-        "arc_modinfo": {
-          "arc_plugin_name": "arcdps_bhud",
-          "arc_plugin_extension": "dll"
-        }
+        "arc_plugin_name": "arcdps_bhud",
+        "arc_plugin_extension": "dll"
       }
     },
     {
       "internal_name": "arcdps_boontable",
       "display_name": "ArcDPS Boon Table",
       "description": "Displays squad boon uptime for a number of boons and includes information such as individual player boon uptime and their subsquad.",
-      "tooltip": "ArcDPS boon table plug-in",
+      "tooltip": "ArcDPS boon table plug-in.",
       "authors": "knoxfighter, original by MarsEdge",
       "website": "https://github.com/knoxfighter/GW2-ArcDPS-Boon-Table",
       "hosts": [
@@ -86,10 +84,8 @@
       ],
       "conflicts": [],
       "additional": {
-        "arc_modinfo": {
-          "arc_plugin_name": "d3d9_arcdps_boontable.dll",
-          "arc_plugin_extension": "dll"
-        }
+        "arc_plugin_name": "d3d9_arcdps_boontable",
+        "arc_plugin_extension": "dll"
       }
     }
   ],
