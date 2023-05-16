@@ -12,7 +12,7 @@
           "host_type": "github",
           "host_url": "https://api.github.com/repos/gw2-addon-loader/loader-core/releases/latest",
           "versioning": "commit_sha",
-          "version_url": ""
+          "version_url": null
         }
       ],
       "download_type": "archive",
@@ -56,7 +56,7 @@
           "host_type": "github",
           "host_url": "https://api.github.com/repositories/187708533/releases/latest",
           "versioning": "commit_sha",
-          "version_url": ""
+          "version_url": null
         }
       ],
       "download_type": "archive",
@@ -82,7 +82,7 @@
           "host_type": "github",
           "host_url": "https://api.github.com/repos/knoxfighter/GW2-ArcDPS-Boon-Table/releases/latest",
           "versioning": "commit_sha",
-          "version_url": ""
+          "version_url": null
         }
       ],
       "download_type": "dll",
