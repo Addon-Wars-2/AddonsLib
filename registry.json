@@ -10,7 +10,9 @@
       "hosts": [
         {
           "host_type": "github",
-          "host_url": "https://api.github.com/repos/gw2-addon-loader/loader-core/releases/latest"
+          "host_url": "https://api.github.com/repos/gw2-addon-loader/loader-core/releases/latest",
+          "versioning": "commit-sha",
+          "version_url":  ""
         }
       ],
       "download_type": "archive",
@@ -29,7 +31,9 @@
       "hosts": [
         {
           "host_type": "standalone",
-          "host_url": "https://www.deltaconnected.com/arcdps/gw2addon_arcdps.dll"
+          "host_url": "https://www.deltaconnected.com/arcdps/gw2addon_arcdps.dll",
+          "versioning": "md5sum",
+          "version_url": "https://www.deltaconnected.com/arcdps/x64/d3d11.dll.md5sum"
         }
       ],
       "download_type": "dll",
@@ -50,7 +54,9 @@
       "hosts": [
         {
           "host_type": "github",
-          "host_url": "https://api.github.com/repositories/187708533/releases/latest"
+          "host_url": "https://api.github.com/repositories/187708533/releases/latest",
+          "versioning": "commit-sha",
+          "version_url": ""
         }
       ],
       "download_type": "archive",
@@ -74,7 +80,9 @@
       "hosts": [
         {
           "host_type": "github",
-          "host_url": "https://api.github.com/repos/knoxfighter/GW2-ArcDPS-Boon-Table/releases/latest"
+          "host_url": "https://api.github.com/repos/knoxfighter/GW2-ArcDPS-Boon-Table/releases/latest",
+          "versioning": "commit-sha",
+          "version_url": ""
         }
       ],
       "download_type": "dll",

@@ -10,11 +10,15 @@
       "hosts": [
         {
           "host_type": "",
-          "host_url": ""
+          "host_url": "",
+          "versioning": "",
+          "version_url": ""
         },
         {
           "host_type": "",
-          "host_url": ""
+          "host_url": "",
+          "versioning": "",
+          "version_url": ""
         }
       ],
       "download_type": "",
