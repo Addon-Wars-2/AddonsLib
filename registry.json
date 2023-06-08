@@ -221,7 +221,7 @@
     },
     {
       "internal_name": "arcdps_know_thy_enemy",
-      "display_name": "ArcDPS [WvW] Know Thy Enemy Plugin",
+      "display_name": "ArcDPS Know Thy Enemy Plugin",
       "description": "A WvW addon that counts the amount and type of player enemies (that your squad hits or is hit by) in an arcdps fight instance (resets when arcdps does).",
       "tooltip": "Counts the amount and type of player enemies in a fight.",
       "authors": "typedeck0",
@@ -373,7 +373,7 @@
     {
       "internal_name": "d3d9_wrapper",
       "display_name": "D3D9 Wrapper",
-      "description": "Wrapper for D3D9 API that includes advanced hooking and custom d3d9 loading. \n\n Base library to support multiple addons that use D3D9 based rendering.",
+      "description": "Wrapper for D3D9 API that includes advanced hooking and custom d3d9 loading.\n\nBase library to support multiple addons that use D3D9 based rendering.",
       "tooltip": "Advanced D3D9 API Wrapper.",
       "authors": "Megai2",
       "website": "https://github.com/gw2-addon-loader/d3d9_wrapper",
