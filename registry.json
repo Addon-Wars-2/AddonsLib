@@ -436,7 +436,6 @@
       ],
       "conflicts": [],
       "additional": {}
-<<<<<<< HEAD
     },
     {
       "internal_name": "selectRenderer",
@@ -461,8 +460,6 @@
       ],
       "conflicts": [],
       "additional": {}
-=======
->>>>>>> parent of 6e7d889 (SelectRenderer)
     }
   ],
   "schema": {
