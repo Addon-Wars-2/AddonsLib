@@ -46,7 +46,7 @@
     },
     {
       "internal_name": "arcdps_bhud",
-      "display_name": "ArcDPS Blish HUD",
+      "display_name": "ArcDPS Blish HUD Plugin",
       "description": "This addon provides data from the Arcdps Combat API to the Blish HUD overlay, where it can be used by different Blish HUD modules for optimization and additional functionality.",
       "tooltip": "Uses the ArcDPS Combat API to provide data to Blish HUD.",
       "authors": "Greaka",
@@ -66,13 +66,12 @@
       ],
       "conflicts": [],
       "additional": {
-        "arc_plugin_name": "arcdps_bhud",
-        "arc_plugin_extension": "dll"
+        "arc_plugin_name": "arcdps_bhud.dll"
       }
     },
     {
       "internal_name": "arcdps_boontable",
-      "display_name": "ArcDPS Boon Table",
+      "display_name": "ArcDPS Boon Table Plugin",
       "description": "Displays squad boon uptime for a number of boons and includes information such as individual player boon uptime and their subsquad.",
       "tooltip": "ArcDPS boon table plug-in.",
       "authors": "knoxfighter, original by MarsEdge",
@@ -92,9 +91,351 @@
       ],
       "conflicts": [],
       "additional": {
-        "arc_plugin_name": "d3d9_arcdps_boontable",
-        "arc_plugin_extension": "dll"
+        "arc_plugin_name": "d3d9_arcdps_boontable.dll"
       }
+    },
+    {
+      "internal_name": "arcdps_clears",
+      "display_name": "ArcDPS Clears Plugin",
+      "description": "Adds a window for quickly checking your current weekly clears in the game.",
+      "tooltip": "Check your weekly clears in the game.",
+      "authors": "Sejsel",
+      "website": "https://gw2scratch.com/tools/arcdps-clears",
+      "hosts": [
+        {
+          "host_type": "github",
+          "host_url": "https://api.github.com/repos/gw2scratch/arcdps-clears/releases/latest",
+          "versioning": "commit_sha",
+          "version_url": null
+        }
+      ],
+      "download_type": "dll",
+      "install_mode": "arc",
+      "required_addons": [
+        "arcdps"
+      ],
+      "conflicts": [],
+      "additional": {
+        "arc_plugin_name": "arcdps_clears.dll"
+      }
+    },
+    {
+      "internal_name": "arcdps_commanderstoolkit",
+      "display_name": "Commander's Toolkit",
+      "description": "Displays a reminder for your own Food/Utility item buffs. Adds an overview of Food & Utility item buffs on your Party/Squad and own characters.\n\nAllows you to track who is responsible for which role and buffs to easily keep track of the squad's coverage.",
+      "tooltip": "Track Squad Roles & Utility.",
+      "authors": "DeltaxHunter",
+      "website": "https://github.com/RaidcoreGG/GW2-CommandersToolkit",
+      "hosts": [
+        {
+          "host_type": "github",
+          "host_url": "https://api.github.com/repos/RaidcoreGG/GW2-CommandersToolkit/releases/latest",
+          "versioning": "commit_sha",
+          "version_url": null
+        }
+      ],
+      "download_type": "dll",
+      "install_mode": "arc",
+      "required_addons": [
+        "arcdps"
+      ],
+      "conflicts": [],
+      "additional": {
+        "arc_plugin_name": "arcdps_commanderstoolkit.dll"
+      }
+    },
+    {
+      "internal_name": "arcdps_food_reminder",
+      "display_name": "ArcDPS Food Reminder Plugin",
+      "description": "Displays a reminder for your own Food/Utility item buffs. Adds an overview of Food & Utility item buffs on your Party/Squad and own characters.",
+      "tooltip": "Track Food & Utility buffs.",
+      "authors": "Zerthox",
+      "website": "https://github.com/zerthox/arcdps-food-reminder",
+      "hosts": [
+        {
+          "host_type": "github",
+          "host_url": "https://api.github.com/repos/zerthox/arcdps-food-reminder/releases/latest",
+          "versioning": "commit_sha",
+          "version_url": null
+        }
+      ],
+      "download_type": "dll",
+      "install_mode": "arc",
+      "required_addons": [
+        "arcdps"
+      ],
+      "conflicts": [],
+      "additional": {
+        "arc_plugin_name": "arcdps_food_reminder.dll"
+      }
+    },
+    {
+      "internal_name": "arcdps_healing_stats",
+      "display_name": "ArcDPS Healing Stats Plugin",
+      "description": "Shows personal healing statistics based on your local stats (i.e. your own healing output).\n\nThis includes outgoing healing per target and per skill, as well as filtering to only include your own subgroup/squad and to exclude minions",
+      "tooltip": "Shows statistics for personal healing done.",
+      "authors": "Kappa322",
+      "website": "https://github.com/Krappa322/arcdps_healing_stats",
+      "hosts": [
+        {
+          "host_type": "github",
+          "host_url": "https://api.github.com/repos/Krappa322/arcdps_healing_stats/releases/latest",
+          "versioning": "commit_sha",
+          "version_url": null
+        }
+      ],
+      "download_type": "dll",
+      "install_mode": "arc",
+      "required_addons": [
+        "arcdps"
+      ],
+      "conflicts": [],
+      "additional": {
+        "arc_plugin_name": "arcdps_healing_stats.dll"
+      }
+    },
+    {
+      "internal_name": "arcdps_killproof_me",
+      "display_name": "ArcDPS Killproof-me Plugin",
+      "description": "This addon shows the killproofs of players, that are registered on killproof.me.",
+      "tooltip": "Shows killproof.me data ingame.",
+      "authors": "knoxfighter",
+      "website": "https://github.com/knoxfighter/arcdps-killproof.me-plugin",
+      "hosts": [
+        {
+          "host_type": "github",
+          "host_url": "https://api.github.com/repos/knoxfighter/arcdps-killproof.me-plugin/releases/latest",
+          "versioning": "commit_sha",
+          "version_url": null
+        }
+      ],
+      "download_type": "dll",
+      "install_mode": "arc",
+      "required_addons": [
+        "arcdps"
+      ],
+      "conflicts": [],
+      "additional": {
+        "arc_plugin_name": "d3d9_arcdps_killproof_me.dll"
+      }
+    },
+    {
+      "internal_name": "arcdps_know_thy_enemy",
+      "display_name": "ArcDPS [WvW] Know Thy Enemy Plugin",
+      "description": "A WvW addon that counts the amount and type of player enemies (that your squad hits or is hit by) in an arcdps fight instance (resets when arcdps does).",
+      "tooltip": "Counts the amount and type of player enemies in a fight.",
+      "authors": "typedeck0",
+      "website": "https://github.com/typedeck0/Know-thy-enemy",
+      "hosts": [
+        {
+          "host_type": "github",
+          "host_url": "https://api.github.com/repos/typedeck0/Know-thy-enemy/releases/latest",
+          "versioning": "commit_sha",
+          "version_url": null
+        }
+      ],
+      "download_type": "dll",
+      "install_mode": "arc",
+      "required_addons": [
+        "arcdps"
+      ],
+      "conflicts": [],
+      "additional": {
+        "arc_plugin_name": "arcdps_know_thy_enemy.dll"
+      }
+    },
+    {
+      "internal_name": "arcdps_mechanics",
+      "display_name": "ArcDPS Mechanics Plugin",
+      "description": "This addon shows mechanics that players have failed during a raid encounter. A list of the failed mechanics is displayed, including which player failed what mechanic and at what time during the fight.",
+      "tooltip": "Provides information about raid mechanics using the ArcDPS Combat API.",
+      "authors": "knoxfighter, original by MarsEdge",
+      "website": "https://github.com/knoxfighter/GW2-ArcDPS-Mechanics-Log",
+      "hosts": [
+        {
+          "host_type": "github",
+          "host_url": "https://api.github.com/repos/knoxfighter/GW2-ArcDPS-Mechanics-Log/releases/latest",
+          "versioning": "commit_sha",
+          "version_url": null
+        }
+      ],
+      "download_type": "dll",
+      "install_mode": "arc",
+      "required_addons": [
+        "arcdps"
+      ],
+      "conflicts": [],
+      "additional": {
+        "arc_plugin_name": "d3d9_arcdps_mechanics.dll"
+      }
+    },
+    {
+      "internal_name": "arcdps_sct",
+      "display_name": "ArcDPS Scrolling Combat Text Plugin",
+      "description": "Adds a highly customizable scrolling combat text beside the users character. Incoming damage is by default displayed on the left side, outgoing damage on the right side.",
+      "tooltip": "Shows all damage numbers as a highly customizable wall of scrolling text.",
+      "authors": "Artenuvielle",
+      "website": "https://github.com/Artenuvielle/GW2-SCT",
+      "hosts": [
+        {
+          "host_type": "github",
+          "host_url": "https://api.github.com/repos/Artenuvielle/GW2-SCT/releases/latest",
+          "versioning": "commit_sha",
+          "version_url": null
+        }
+      ],
+      "download_type": "dll",
+      "install_mode": "arc",
+      "required_addons": [
+        "arcdps"
+      ],
+      "conflicts": [],
+      "additional": {
+        "arc_plugin_name": "d3d9_arcdps_sct.dll"
+      }
+    },
+    {
+      "internal_name": "arcdps_squad_ready",
+      "display_name": "ArcDPS Squad Ready Plugin",
+      "description": "Plays audio notifications when a squad ready check is started and completed.\nThe ArcDPS Unofficial Extras plugin is required to be installed to function correctly.",
+      "tooltip": "Squad Ready audio notifications.",
+      "authors": "Deathmax",
+      "website": "https://github.com/cheahjs/arcdps-squad-ready-plugin",
+      "hosts": [
+        {
+          "host_type": "github",
+          "host_url": "https://api.github.com/repos/cheahjs/arcdps-squad-ready-plugin/releases/latest",
+          "versioning": "commit_sha",
+          "version_url": null
+        }
+      ],
+      "download_type": "dll",
+      "install_mode": "arc",
+      "required_addons": [
+        "arcdps",
+        "arcdps_unofficial_extras"
+      ],
+      "conflicts": [],
+      "additional": {
+        "arc_plugin_name": "arcdps_squad_ready.dll"
+      }
+    },
+    {
+      "internal_name": "arcdps_unofficial_extras",
+      "display_name": "ArcDPS Unofficial Extras Plugin",
+      "description": "This plugin provides additional information to other plugins. For example, it enables the killproof.me addon to display players who are not in the same instance.\n\nIt also has some small features by itself, such as mouse clipping, which prevents accidentally interacting with things while panning the camera.",
+      "tooltip": "Additional features for arcdps and plugins.",
+      "authors": "Kappa322, knoxfighter",
+      "website": "https://github.com/Krappa322/arcdps_unofficial_extras_releases/",
+      "hosts": [
+        {
+          "host_type": "github",
+          "host_url": "https://api.github.com/repos/Krappa322/arcdps_unofficial_extras_releases/releases/latest",
+          "versioning": "commit_sha",
+          "version_url": null
+        }
+      ],
+      "download_type": "dll",
+      "install_mode": "arc",
+      "required_addons": [
+        "arcdps"
+      ],
+      "conflicts": [],
+      "additional": {
+        "arc_plugin_name": "arcdps_unofficial_extras.dll"
+      }
+    },
+    {
+      "internal_name": "arcdps_uploader",
+      "display_name": "ArcDPS Uploader Plugin",
+      "description": "This is an extension for Arcdps that allows you to preview and upload EVTC combat logs in-game.",
+      "tooltip": "Preview and upload EVTC combat logs in-game.",
+      "authors": "datatobridge",
+      "website": "https://github.com/datatobridge/arcdps-uploader",
+      "hosts": [
+        {
+          "host_type": "github",
+          "host_url": "https://api.github.com/repos/datatobridge/arcdps-uploader/releases/latest",
+          "versioning": "commit_sha",
+          "version_url": null
+        }
+      ],
+      "download_type": "dll",
+      "install_mode": "arc",
+      "required_addons": [
+        "arcdps"
+      ],
+      "conflicts": [],
+      "additional": {
+        "arc_plugin_name": "d3d9_arcdps_uploader.dll"
+      }
+    },
+    {
+      "internal_name": "d3d9_wrapper",
+      "display_name": "D3D9 Wrapper",
+      "description": "Wrapper for D3D9 API that includes advanced hooking and custom d3d9 loading. \n\n Base library to support multiple addons that use D3D9 based rendering.",
+      "tooltip": "Advanced D3D9 API Wrapper.",
+      "authors": "Megai2",
+      "website": "https://github.com/gw2-addon-loader/d3d9_wrapper",
+      "hosts": [
+        {
+          "host_type": "github",
+          "host_url": "https://api.github.com/repos/gw2-addon-loader/d3d9_wrapper/releases/latest",
+          "versioning": "commit_sha",
+          "version_url": null
+        }
+      ],
+      "download_type": "archive",
+      "install_mode": "binary",
+      "required_addons": [],
+      "conflicts": [],
+      "additional": {}
+    },
+    {
+      "internal_name": "gw2radial",
+      "display_name": "GW2 Radial",
+      "description": "An addon to show a convenient, customizable radial menu overlay to select a mount, novelty item and more, on the fly, for Guild Wars 2: Path of Fire.",
+      "tooltip": "Provides various radial menus allowing quick access to mounts and more with one keypress.",
+      "authors": "FriendlyFire",
+      "website": "https://github.com/Friendly0Fire/GW2Radial",
+      "hosts": [
+        {
+          "host_type": "github",
+          "host_url": "https://api.github.com/repos/Friendly0Fire/gw2radial/releases/latest",
+          "versioning": "commit_sha",
+          "version_url": null
+        }
+      ],
+      "download_type": "archive",
+      "install_mode": "binary",
+      "required_addons": [
+        "d3d9_wrapper"
+      ],
+      "conflicts": [],
+      "additional": {}
+    },
+    {
+      "internal_name": "lib_imgui",
+      "display_name": "Lib Imgui",
+      "description": "Provides imgui context that can be used in other addons.",
+      "tooltip": "Shared mgui library.",
+      "authors": "megai2",
+      "website": "https://github.com/gw2-addon-loader/lib_imgui",
+      "hosts": [
+        {
+          "host_type": "github",
+          "host_url": "https://api.github.com/repos/gw2-addon-loader/lib_imgui/releases/latest",
+          "versioning": "commit_sha",
+          "version_url": null
+        }
+      ],
+      "download_type": "archive",
+      "install_mode": "binary",
+      "required_addons": [
+        "d3d9_wrapper"
+      ],
+      "conflicts": [],
+      "additional": {}
     }
   ],
   "schema": {

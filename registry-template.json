@@ -13,22 +13,13 @@
           "host_url": "",
           "versioning": "",
           "version_url": ""
-        },
-        {
-          "host_type": "",
-          "host_url": "",
-          "versioning": "",
-          "version_url": ""
         }
       ],
       "download_type": "",
       "install_mode": "",
       "required_addons": [],
       "conflicts": [],
-      "additional": {
-        "arc_plugin_name": "",
-        "arc_plugin_extension" : ""
-      }
+      "additional": {}
     }
   ],
   "schema": {
