@@ -436,6 +436,30 @@
       ],
       "conflicts": [],
       "additional": {}
+    },
+    {
+      "internal_name": "selectRenderer",
+      "display_name": "SelectRenderer",
+      "description": "Allows selection of various render paths like DXVK, d912pxy, etc.",
+      "tooltip": "In-game UI-based render selection for GW2.",
+      "authors": "megai2",
+      "website": "https://github.com/megai2/SelectRenderer",
+      "hosts": [
+        {
+          "host_type": "github",
+          "host_url": "https://api.github.com/repos/megai2/SelectRenderer/releases/latest",
+          "versioning": "commit-sha",
+          "version_url": null
+        }
+      ],
+      "download_type": "archive",
+      "install_mode": "binary",
+      "required_addons": [
+        "d3d9_wrapper",
+        "lib_imgui"
+      ],
+      "conflicts": [],
+      "additional": {}
     }
   ],
   "schema": {
