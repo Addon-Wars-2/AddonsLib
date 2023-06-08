@@ -448,7 +448,7 @@
         {
           "host_type": "github",
           "host_url": "https://api.github.com/repos/megai2/SelectRenderer/releases/latest",
-          "versioning": "commit-sha",
+          "versioning": "commit_sha",
           "version_url": null
         }
       ],
