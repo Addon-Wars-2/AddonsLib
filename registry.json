@@ -416,7 +416,7 @@
     },
     {
       "internal_name": "lib_imgui",
-      "display_name": "Lib Imgui",
+      "display_name": "Lib ImGui",
       "description": "Provides imgui context that can be used in other addons.",
       "tooltip": "Shared mgui library.",
       "authors": "megai2",
