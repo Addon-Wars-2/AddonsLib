@@ -121,7 +121,7 @@
     },
     {
       "internal_name": "arcdps_commanderstoolkit",
-      "display_name": "Commander's Toolkit",
+      "display_name": "ArcDPS Commander's Toolkit Plugin",
       "description": "Displays a reminder for your own Food/Utility item buffs. Adds an overview of Food & Utility item buffs on your Party/Squad and own characters.\n\nAllows you to track who is responsible for which role and buffs to easily keep track of the squad's coverage.",
       "tooltip": "Track Squad Roles & Utility.",
       "authors": "DeltaxHunter",
