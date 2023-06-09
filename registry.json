@@ -418,7 +418,7 @@
       "internal_name": "lib_imgui",
       "display_name": "Lib ImGui",
       "description": "Provides imgui context that can be used in other addons.",
-      "tooltip": "Shared mgui library.",
+      "tooltip": "Shared imgui library.",
       "authors": "megai2",
       "website": "https://github.com/gw2-addon-loader/lib_imgui",
       "hosts": [
