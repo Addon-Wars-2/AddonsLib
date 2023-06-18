@@ -96,7 +96,8 @@
         "RenameAddonRule": {
           "rename_as": "d3d9_arcdps_boontable"
         }
-      },
+      }
+    },
     {
       "internal_name": "arcdps_buildPad",
       "display_name": "ArcDPS BuildPad Plugin",
