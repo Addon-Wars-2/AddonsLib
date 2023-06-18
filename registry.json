@@ -119,10 +119,7 @@
         "arcdps"
       ],
       "conflicts": [],
-      "rules": {
-        "self_updating": true,
-        "obscured_filename": true
-      }
+      "rules": {}
     },
     {
       "internal_name": "arcdps_clears",
@@ -149,7 +146,8 @@
         "RenameAddonRule": {
           "rename_as": "arcdps_clears"
         }
-      },
+      }
+    },
     {
       "internal_name": "arcdps_commanderstoolkit",
       "display_name": "ArcDPS Commander's Toolkit Plugin",
@@ -175,7 +173,8 @@
         "RenameAddonRule": {
           "rename_as": "arcdps_commanderstoolkit"
         }
-      },
+      }
+    },
     {
       "internal_name": "arcdps_food_reminder",
       "display_name": "ArcDPS Food Reminder Plugin",
@@ -201,7 +200,8 @@
         "RenameAddonRule": {
           "rename_as": "arcdps_food_reminder"
         }
-      },
+      }
+    },
     {
       "internal_name": "arcdps_healing_stats",
       "display_name": "ArcDPS Healing Stats Plugin",
@@ -227,7 +227,8 @@
         "RenameAddonRule": {
           "rename_as": "arcdps_healing_stats"
         }
-      },
+      }
+    },
     {
       "internal_name": "arcdps_killproof_me",
       "display_name": "ArcDPS Killproof-me Plugin",
@@ -253,7 +254,8 @@
         "RenameAddonRule": {
           "rename_as": "d3d9_arcdps_killproof_me"
         }
-      },
+      }
+    },
     {
       "internal_name": "arcdps_know_thy_enemy",
       "display_name": "ArcDPS Know Thy Enemy Plugin",
@@ -279,7 +281,8 @@
         "RenameAddonRule": {
           "rename_as": "arcdps_know_thy_enemy"
         }
-      },
+      }
+    },
     {
       "internal_name": "arcdps_mechanics",
       "display_name": "ArcDPS Mechanics Plugin",
@@ -305,7 +308,8 @@
         "RenameAddonRule": {
           "rename_as": "d3d9_arcdps_mechanics"
         }
-      },
+      }
+    },
     {
       "internal_name": "arcdps_sct",
       "display_name": "ArcDPS Scrolling Combat Text Plugin",
@@ -331,7 +335,8 @@
         "RenameAddonRule": {
           "rename_as": "d3d9_arcdps_sct"
         }
-      },
+      }
+    },
     {
       "internal_name": "arcdps_squad_ready",
       "display_name": "ArcDPS Squad Ready Plugin",
@@ -358,7 +363,8 @@
         "RenameAddonRule": {
           "rename_as": "arcdps_squad_ready"
         }
-      },
+      }
+    },
     {
       "internal_name": "arcdps_unofficial_extras",
       "display_name": "ArcDPS Unofficial Extras Plugin",
@@ -384,7 +390,8 @@
         "RenameAddonRule": {
           "rename_as": "arcdps_unofficial_extras"
         }
-      },
+      }
+    },
     {
       "internal_name": "arcdps_uploader",
       "display_name": "ArcDPS Uploader Plugin",
@@ -410,7 +417,8 @@
         "RenameAddonRule": {
           "rename_as": "d3d9_arcdps_uploader"
         }
-      },
+      }
+    },
     {
       "internal_name": "d3d9_wrapper",
       "display_name": "D3D9 Wrapper",
