@@ -19,7 +19,7 @@
       "install_mode": "root",
       "required_addons": [],
       "conflicts": [],
-      "additional": {}
+      "rules": {}
     },
     {
       "internal_name": "arcdps",
@@ -42,12 +42,12 @@
         "addon_loader"
       ],
       "conflicts": [],
-      "additional": {}
+      "rules": {}
     },
     {
       "internal_name": "arcdps_bhud",
       "display_name": "ArcDPS Blish HUD Plugin",
-      "description": "This addon provides data from the Arcdps Combat API to the Blish HUD overlay, where it can be used by different Blish HUD modules for optimization and additional functionality.",
+      "description": "This addon provides data from the Arcdps Combat API to the Blish HUD overlay, where it can be used by different Blish HUD modules for optimization and rules functionality.",
       "tooltip": "Uses the ArcDPS Combat API to provide data to Blish HUD.",
       "authors": "Greaka",
       "website": "https://github.com/blish-hud/arcdps-bhud",
@@ -65,8 +65,10 @@
         "arcdps"
       ],
       "conflicts": [],
-      "additional": {
-        "arc_plugin_name": "arcdps_bhud.dll"
+      "rules": {
+        "RenameAddonRule": {
+          "rename_as": "arcdps_bhud"
+        }
       }
     },
     {
@@ -90,10 +92,11 @@
         "arcdps"
       ],
       "conflicts": [],
-      "additional": {
-        "arc_plugin_name": "d3d9_arcdps_boontable.dll"
-      }
-    },
+      "rules": {
+        "RenameAddonRule": {
+          "rename_as": "d3d9_arcdps_boontable"
+        }
+      },
     {
       "internal_name": "arcdps_buildPad",
       "display_name": "ArcDPS BuildPad Plugin",
@@ -115,7 +118,7 @@
         "arcdps"
       ],
       "conflicts": [],
-      "additional": {
+      "rules": {
         "self_updating": true,
         "obscured_filename": true
       }
@@ -141,10 +144,11 @@
         "arcdps"
       ],
       "conflicts": [],
-      "additional": {
-        "arc_plugin_name": "arcdps_clears.dll"
-      }
-    },
+      "rules": {
+        "RenameAddonRule": {
+          "rename_as": "arcdps_clears"
+        }
+      },
     {
       "internal_name": "arcdps_commanderstoolkit",
       "display_name": "ArcDPS Commander's Toolkit Plugin",
@@ -166,10 +170,11 @@
         "arcdps"
       ],
       "conflicts": [],
-      "additional": {
-        "arc_plugin_name": "arcdps_commanderstoolkit.dll"
-      }
-    },
+      "rules": {
+        "RenameAddonRule": {
+          "rename_as": "arcdps_commanderstoolkit"
+        }
+      },
     {
       "internal_name": "arcdps_food_reminder",
       "display_name": "ArcDPS Food Reminder Plugin",
@@ -191,10 +196,11 @@
         "arcdps"
       ],
       "conflicts": [],
-      "additional": {
-        "arc_plugin_name": "arcdps_food_reminder.dll"
-      }
-    },
+      "rules": {
+        "RenameAddonRule": {
+          "rename_as": "arcdps_food_reminder"
+        }
+      },
     {
       "internal_name": "arcdps_healing_stats",
       "display_name": "ArcDPS Healing Stats Plugin",
@@ -216,10 +222,11 @@
         "arcdps"
       ],
       "conflicts": [],
-      "additional": {
-        "arc_plugin_name": "arcdps_healing_stats.dll"
-      }
-    },
+      "rules": {
+        "RenameAddonRule": {
+          "rename_as": "arcdps_healing_stats"
+        }
+      },
     {
       "internal_name": "arcdps_killproof_me",
       "display_name": "ArcDPS Killproof-me Plugin",
@@ -241,10 +248,11 @@
         "arcdps"
       ],
       "conflicts": [],
-      "additional": {
-        "arc_plugin_name": "d3d9_arcdps_killproof_me.dll"
-      }
-    },
+      "rules": {
+        "RenameAddonRule": {
+          "rename_as": "d3d9_arcdps_killproof_me"
+        }
+      },
     {
       "internal_name": "arcdps_know_thy_enemy",
       "display_name": "ArcDPS Know Thy Enemy Plugin",
@@ -266,10 +274,11 @@
         "arcdps"
       ],
       "conflicts": [],
-      "additional": {
-        "arc_plugin_name": "arcdps_know_thy_enemy.dll"
-      }
-    },
+      "rules": {
+        "RenameAddonRule": {
+          "rename_as": "arcdps_know_thy_enemy"
+        }
+      },
     {
       "internal_name": "arcdps_mechanics",
       "display_name": "ArcDPS Mechanics Plugin",
@@ -291,10 +300,11 @@
         "arcdps"
       ],
       "conflicts": [],
-      "additional": {
-        "arc_plugin_name": "d3d9_arcdps_mechanics.dll"
-      }
-    },
+      "rules": {
+        "RenameAddonRule": {
+          "rename_as": "d3d9_arcdps_mechanics"
+        }
+      },
     {
       "internal_name": "arcdps_sct",
       "display_name": "ArcDPS Scrolling Combat Text Plugin",
@@ -316,10 +326,11 @@
         "arcdps"
       ],
       "conflicts": [],
-      "additional": {
-        "arc_plugin_name": "d3d9_arcdps_sct.dll"
-      }
-    },
+      "rules": {
+        "RenameAddonRule": {
+          "rename_as": "d3d9_arcdps_sct"
+        }
+      },
     {
       "internal_name": "arcdps_squad_ready",
       "display_name": "ArcDPS Squad Ready Plugin",
@@ -342,15 +353,16 @@
         "arcdps_unofficial_extras"
       ],
       "conflicts": [],
-      "additional": {
-        "arc_plugin_name": "arcdps_squad_ready.dll"
-      }
-    },
+      "rules": {
+        "RenameAddonRule": {
+          "rename_as": "arcdps_squad_ready"
+        }
+      },
     {
       "internal_name": "arcdps_unofficial_extras",
       "display_name": "ArcDPS Unofficial Extras Plugin",
-      "description": "This plugin provides additional information to other plugins. For example, it enables the killproof.me addon to display players who are not in the same instance.\n\nIt also has some small features by itself, such as mouse clipping, which prevents accidentally interacting with things while panning the camera.",
-      "tooltip": "Additional features for arcdps and plugins.",
+      "description": "This plugin provides rules information to other plugins. For example, it enables the killproof.me addon to display players who are not in the same instance.\n\nIt also has some small features by itself, such as mouse clipping, which prevents accidentally interacting with things while panning the camera.",
+      "tooltip": "rules features for arcdps and plugins.",
       "authors": "Kappa322, knoxfighter",
       "website": "https://github.com/Krappa322/arcdps_unofficial_extras_releases/",
       "hosts": [
@@ -367,10 +379,11 @@
         "arcdps"
       ],
       "conflicts": [],
-      "additional": {
-        "arc_plugin_name": "arcdps_unofficial_extras.dll"
-      }
-    },
+      "rules": {
+        "RenameAddonRule": {
+          "rename_as": "arcdps_unofficial_extras"
+        }
+      },
     {
       "internal_name": "arcdps_uploader",
       "display_name": "ArcDPS Uploader Plugin",
@@ -392,10 +405,11 @@
         "arcdps"
       ],
       "conflicts": [],
-      "additional": {
-        "arc_plugin_name": "d3d9_arcdps_uploader.dll"
-      }
-    },
+      "rules": {
+        "RenameAddonRule": {
+          "rename_as": "d3d9_arcdps_uploader"
+        }
+      },
     {
       "internal_name": "d3d9_wrapper",
       "display_name": "D3D9 Wrapper",
@@ -415,7 +429,7 @@
       "install_mode": "binary",
       "required_addons": [],
       "conflicts": [],
-      "additional": {}
+      "rules": {}
     },
     {
       "internal_name": "gw2radial",
@@ -438,7 +452,7 @@
         "d3d9_wrapper"
       ],
       "conflicts": [],
-      "additional": {}
+      "rules": {}
     },
     {
       "internal_name": "lib_imgui",
@@ -461,7 +475,7 @@
         "d3d9_wrapper"
       ],
       "conflicts": [],
-      "additional": {}
+      "rules": {}
     },
     {
       "internal_name": "selectRender",
@@ -485,7 +499,7 @@
         "lib_imgui"
       ],
       "conflicts": [],
-      "additional": {}
+      "rules": {}
     }
   ],
   "schema": {
