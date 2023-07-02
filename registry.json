@@ -19,7 +19,7 @@
       "install_mode": "root",
       "required_addons": [],
       "conflicts": [],
-      "rules": {}
+      "rules": []
     },
     {
       "internal_name": "arcdps",
@@ -42,7 +42,7 @@
         "addon_loader"
       ],
       "conflicts": [],
-      "rules": {}
+      "rules": []
     },
     {
       "internal_name": "arcdps_bhud",
@@ -65,11 +65,7 @@
         "arcdps"
       ],
       "conflicts": [],
-      "rules": {
-        "RenameAddonRule": {
-          "rename_as": "arcdps_bhud"
-        }
-      }
+      "rules": []
     },
     {
       "internal_name": "arcdps_boontable",
@@ -92,11 +88,13 @@
         "arcdps"
       ],
       "conflicts": [],
-      "rules": {
-        "RenameAddonRule": {
-          "rename_as": "d3d9_arcdps_boontable"
+      "rules": [
+        {
+          "$type": "rename_file_rule",
+          "old_name": "d3d9_arcdps_table.dll",
+          "new_name": "d3d9_arcdps_boontable.dll"
         }
-      }
+      ]
     },
     {
       "internal_name": "arcdps_buildPad",
@@ -119,7 +117,7 @@
         "arcdps"
       ],
       "conflicts": [],
-      "rules": {}
+      "rules": []
     },
     {
       "internal_name": "arcdps_clears",
@@ -142,11 +140,7 @@
         "arcdps"
       ],
       "conflicts": [],
-      "rules": {
-        "RenameAddonRule": {
-          "rename_as": "arcdps_clears"
-        }
-      }
+      "rules": []
     },
     {
       "internal_name": "arcdps_commanderstoolkit",
@@ -168,12 +162,14 @@
       "required_addons": [
         "arcdps"
       ],
-      "conflicts": [],
-      "rules": {
-        "RenameAddonRule": {
-          "rename_as": "arcdps_commanderstoolkit"
+      "conflicts": [],  
+      "rules": [
+        {
+          "$type": "rename_file_rule",
+          "old_name": "squadmanager.dll",
+          "new_name": "arcdps_commanderstoolkit.dll"
         }
-      }
+      ]
     },
     {
       "internal_name": "arcdps_food_reminder",
@@ -196,11 +192,7 @@
         "arcdps"
       ],
       "conflicts": [],
-      "rules": {
-        "RenameAddonRule": {
-          "rename_as": "arcdps_food_reminder"
-        }
-      }
+      "rules": []
     },
     {
       "internal_name": "arcdps_healing_stats",
@@ -223,11 +215,7 @@
         "arcdps"
       ],
       "conflicts": [],
-      "rules": {
-        "RenameAddonRule": {
-          "rename_as": "arcdps_healing_stats"
-        }
-      }
+      "rules": []
     },
     {
       "internal_name": "arcdps_killproof_me",
@@ -250,11 +238,7 @@
         "arcdps"
       ],
       "conflicts": [],
-      "rules": {
-        "RenameAddonRule": {
-          "rename_as": "d3d9_arcdps_killproof_me"
-        }
-      }
+      "rules": []
     },
     {
       "internal_name": "arcdps_know_thy_enemy",
@@ -277,11 +261,13 @@
         "arcdps"
       ],
       "conflicts": [],
-      "rules": {
-        "RenameAddonRule": {
-          "rename_as": "arcdps_know_thy_enemy"
+      "rules": [
+        {
+          "$type": "rename_file_rule",
+          "old_name": "know_thy_enemy.dll",
+          "new_name": "arcdps_know_thy_enemy.dll"
         }
-      }
+      ]
     },
     {
       "internal_name": "arcdps_mechanics",
@@ -304,11 +290,7 @@
         "arcdps"
       ],
       "conflicts": [],
-      "rules": {
-        "RenameAddonRule": {
-          "rename_as": "d3d9_arcdps_mechanics"
-        }
-      }
+      "rules": []
     },
     {
       "internal_name": "arcdps_sct",
@@ -331,11 +313,7 @@
         "arcdps"
       ],
       "conflicts": [],
-      "rules": {
-        "RenameAddonRule": {
-          "rename_as": "d3d9_arcdps_sct"
-        }
-      }
+      "rules": []
     },
     {
       "internal_name": "arcdps_squad_ready",
@@ -359,11 +337,7 @@
         "arcdps_unofficial_extras"
       ],
       "conflicts": [],
-      "rules": {
-        "RenameAddonRule": {
-          "rename_as": "arcdps_squad_ready"
-        }
-      }
+      "rules": []
     },
     {
       "internal_name": "arcdps_unofficial_extras",
@@ -386,11 +360,7 @@
         "arcdps"
       ],
       "conflicts": [],
-      "rules": {
-        "RenameAddonRule": {
-          "rename_as": "arcdps_unofficial_extras"
-        }
-      }
+      "rules": []
     },
     {
       "internal_name": "arcdps_uploader",
@@ -413,11 +383,13 @@
         "arcdps"
       ],
       "conflicts": [],
-      "rules": {
-        "RenameAddonRule": {
-          "rename_as": "d3d9_arcdps_uploader"
+      "rules": [
+        {
+          "$type": "rename_file_rule",
+          "old_name": "d3d9_uploader.dll",
+          "new_name": "d3d9_arcdps_uploader.dll"
         }
-      }
+      ]
     },
     {
       "internal_name": "d3d9_wrapper",
