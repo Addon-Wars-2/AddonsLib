@@ -91,7 +91,7 @@
       "rules": [
         {
           "$type": "rename_file_rule",
-          "old_name": "d3d9_arcdps_table.dll",
+          "old_name": "self",
           "new_name": "d3d9_arcdps_boontable.dll"
         }
       ]
@@ -166,7 +166,7 @@
       "rules": [
         {
           "$type": "rename_file_rule",
-          "old_name": "squadmanager.dll",
+          "old_name": "self",
           "new_name": "arcdps_commanderstoolkit.dll"
         }
       ]
@@ -264,7 +264,7 @@
       "rules": [
         {
           "$type": "rename_file_rule",
-          "old_name": "know_thy_enemy.dll",
+          "old_name": "self",
           "new_name": "arcdps_know_thy_enemy.dll"
         }
       ]
@@ -386,7 +386,7 @@
       "rules": [
         {
           "$type": "rename_file_rule",
-          "old_name": "d3d9_uploader.dll",
+          "old_name": "self",
           "new_name": "d3d9_arcdps_uploader.dll"
         }
       ]
