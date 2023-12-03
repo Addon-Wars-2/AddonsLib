@@ -37,7 +37,7 @@
         }
       ],
       "download_type": "dll",
-      "install_mode": "binary",
+      "install_mode": "arc",
       "required_addons": [
         "addon_loader"
       ],
