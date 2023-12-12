@@ -19,7 +19,7 @@
       "install_mode": "root",
       "required_addons": [],
       "conflicts": [],
-      "rules": []
+      "actions": []
     },
     {
       "internal_name": "arcdps",
@@ -42,7 +42,7 @@
         "addon_loader"
       ],
       "conflicts": [],
-      "rules": []
+      "actions": []
     },
     {
       "internal_name": "arcdps_bhud",
@@ -65,7 +65,7 @@
         "arcdps"
       ],
       "conflicts": [],
-      "rules": []
+      "actions": []
     },
     {
       "internal_name": "arcdps_boontable",
@@ -88,7 +88,7 @@
         "arcdps"
       ],
       "conflicts": [],
-      "rules": [
+      "actions": [
         {
           "$type": "rename_file_rule",
           "old_name": "self",
@@ -117,7 +117,7 @@
         "arcdps"
       ],
       "conflicts": [],
-      "rules": []
+      "actions": []
     },
     {
       "internal_name": "arcdps_clears",
@@ -140,7 +140,7 @@
         "arcdps"
       ],
       "conflicts": [],
-      "rules": []
+      "actions": []
     },
     {
       "internal_name": "arcdps_commanderstoolkit",
@@ -163,7 +163,7 @@
         "arcdps"
       ],
       "conflicts": [],  
-      "rules": [
+      "actions": [
         {
           "$type": "rename_file_rule",
           "old_name": "self",
@@ -192,7 +192,7 @@
         "arcdps"
       ],
       "conflicts": [],
-      "rules": []
+      "actions": []
     },
     {
       "internal_name": "arcdps_healing_stats",
@@ -215,7 +215,7 @@
         "arcdps"
       ],
       "conflicts": [],
-      "rules": []
+      "actions": []
     },
     {
       "internal_name": "arcdps_killproof_me",
@@ -238,7 +238,7 @@
         "arcdps"
       ],
       "conflicts": [],
-      "rules": []
+      "actions": []
     },
     {
       "internal_name": "arcdps_know_thy_enemy",
@@ -261,7 +261,7 @@
         "arcdps"
       ],
       "conflicts": [],
-      "rules": [
+      "actions": [
         {
           "$type": "rename_file_rule",
           "old_name": "self",
@@ -290,7 +290,7 @@
         "arcdps"
       ],
       "conflicts": [],
-      "rules": []
+      "actions": []
     },
     {
       "internal_name": "arcdps_sct",
@@ -313,7 +313,7 @@
         "arcdps"
       ],
       "conflicts": [],
-      "rules": []
+      "actions": []
     },
     {
       "internal_name": "arcdps_squad_ready",
@@ -337,7 +337,7 @@
         "arcdps_unofficial_extras"
       ],
       "conflicts": [],
-      "rules": []
+      "actions": []
     },
     {
       "internal_name": "arcdps_unofficial_extras",
@@ -360,7 +360,7 @@
         "arcdps"
       ],
       "conflicts": [],
-      "rules": []
+      "actions": []
     },
     {
       "internal_name": "arcdps_uploader",
@@ -383,7 +383,7 @@
         "arcdps"
       ],
       "conflicts": [],
-      "rules": [
+      "actions": [
         {
           "$type": "rename_file_rule",
           "old_name": "self",
@@ -410,7 +410,7 @@
       "install_mode": "binary",
       "required_addons": [],
       "conflicts": [],
-      "rules": []
+      "actions": []
     },
     {
       "internal_name": "gw2radial",
@@ -433,7 +433,7 @@
         "d3d9_wrapper"
       ],
       "conflicts": [],
-      "rules": []
+      "actions": []
     },
     {
       "internal_name": "lib_imgui",
@@ -456,7 +456,7 @@
         "d3d9_wrapper"
       ],
       "conflicts": [],
-      "rules": []
+      "actions": []
     },
     {
       "internal_name": "selectRender",
@@ -480,7 +480,7 @@
         "lib_imgui"
       ],
       "conflicts": [],
-      "rules": []
+      "actions": []
     }
   ],
   "schema": {
