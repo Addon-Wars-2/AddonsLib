@@ -39,7 +39,8 @@
       "download_type": "dll",
       "install_mode": "arc",
       "required_addons": [
-        "addon_loader"
+        "addon_loader",
+        "d3d9_wrapper"
       ],
       "conflicts": [],
       "actions": []
