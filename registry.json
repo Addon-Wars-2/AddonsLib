@@ -117,6 +117,7 @@
       "required_addons": [
         "arcdps"
       ],
+      "required_addons": [],
       "conflicts": [],
       "actions": []
     },
@@ -140,6 +141,7 @@
       "required_addons": [
         "arcdps"
       ],
+      "required_addons": [],
       "conflicts": [],
       "actions": []
     },
@@ -192,6 +194,7 @@
       "required_addons": [
         "arcdps"
       ],
+      "required_addons": [],
       "conflicts": [],
       "actions": []
     },
@@ -215,6 +218,7 @@
       "required_addons": [
         "arcdps"
       ],
+      "required_addons": [],
       "conflicts": [],
       "actions": []
     },
@@ -238,6 +242,7 @@
       "required_addons": [
         "arcdps"
       ],
+      "required_addons": [],
       "conflicts": [],
       "actions": []
     },
@@ -290,6 +295,7 @@
       "required_addons": [
         "arcdps"
       ],
+      "required_addons": [],
       "conflicts": [],
       "actions": []
     },
@@ -313,6 +319,7 @@
       "required_addons": [
         "arcdps"
       ],
+      "required_addons": [],
       "conflicts": [],
       "actions": []
     },
@@ -337,6 +344,7 @@
         "arcdps",
         "arcdps_unofficial_extras"
       ],
+      "required_addons": [],
       "conflicts": [],
       "actions": []
     },
@@ -360,6 +368,7 @@
       "required_addons": [
         "arcdps"
       ],
+      "required_addons": [],
       "conflicts": [],
       "actions": []
     },
@@ -433,6 +442,7 @@
       "required_addons": [
         "d3d9_wrapper"
       ],
+      "required_addons": [],
       "conflicts": [],
       "actions": []
     },
@@ -456,9 +466,31 @@
       "required_addons": [
         "d3d9_wrapper"
       ],
+      "required_addons": [],
       "conflicts": [],
       "actions": []
     },
+    {
+      "internal_name": "rc_nexus",
+      "display_name": "Raidcore Nexus",
+      "description": "Nexus is a next-gen Addon Manager & Loader for Guild Wars 2. It provides an API and Framework, which keeps your plugins always up-to-date. No fidgeting with DLL files, crashing games after updates or inconsistent behaviour across addons.",
+      "tooltip": "A next-gen Addon Manager & Loader for Guild Wars 2",
+      "authors": "DeltaGW2 (Raidcore)",
+      "website": "https://raidcore.gg/Nexus",
+      "hosts": [
+        {
+          "host_type": "standalone",
+          "host_url": "https://api.raidcore.gg/d3d11.dll",
+          "versioning": "none",
+          "version_url": "null"
+        }
+      ],
+      "download_type": "dll",
+      "install_mode": "root",
+      "required_addons": [],
+      "conflicts": [],
+      "actions": []
+    }
     {
       "internal_name": "selectRender",
       "display_name": "SelectRenderer",
@@ -480,6 +512,7 @@
         "d3d9_wrapper",
         "lib_imgui"
       ],
+      "required_addons": [],
       "conflicts": [],
       "actions": []
     }

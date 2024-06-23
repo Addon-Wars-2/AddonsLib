@@ -19,7 +19,7 @@
       "install_mode": "",
       "required_addons": [],
       "conflicts": [],
-      "additional": {}
+      "actions": []
     }
   ],
   "schema": {
