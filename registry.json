@@ -117,7 +117,6 @@
       "required_addons": [
         "arcdps"
       ],
-      "required_addons": [],
       "conflicts": [],
       "actions": []
     },
@@ -141,7 +140,6 @@
       "required_addons": [
         "arcdps"
       ],
-      "required_addons": [],
       "conflicts": [],
       "actions": []
     },
@@ -194,7 +192,6 @@
       "required_addons": [
         "arcdps"
       ],
-      "required_addons": [],
       "conflicts": [],
       "actions": []
     },
@@ -218,7 +215,6 @@
       "required_addons": [
         "arcdps"
       ],
-      "required_addons": [],
       "conflicts": [],
       "actions": []
     },
@@ -242,7 +238,6 @@
       "required_addons": [
         "arcdps"
       ],
-      "required_addons": [],
       "conflicts": [],
       "actions": []
     },
@@ -295,7 +290,6 @@
       "required_addons": [
         "arcdps"
       ],
-      "required_addons": [],
       "conflicts": [],
       "actions": []
     },
@@ -319,7 +313,6 @@
       "required_addons": [
         "arcdps"
       ],
-      "required_addons": [],
       "conflicts": [],
       "actions": []
     },
@@ -344,7 +337,6 @@
         "arcdps",
         "arcdps_unofficial_extras"
       ],
-      "required_addons": [],
       "conflicts": [],
       "actions": []
     },
@@ -368,7 +360,6 @@
       "required_addons": [
         "arcdps"
       ],
-      "required_addons": [],
       "conflicts": [],
       "actions": []
     },
@@ -442,7 +433,6 @@
       "required_addons": [
         "d3d9_wrapper"
       ],
-      "required_addons": [],
       "conflicts": [],
       "actions": []
     },
@@ -466,7 +456,6 @@
       "required_addons": [
         "d3d9_wrapper"
       ],
-      "required_addons": [],
       "conflicts": [],
       "actions": []
     },
@@ -512,7 +501,6 @@
         "d3d9_wrapper",
         "lib_imgui"
       ],
-      "required_addons": [],
       "conflicts": [],
       "actions": []
     }
