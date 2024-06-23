@@ -461,7 +461,7 @@
     },
     {
       "internal_name": "rc_nexus",
-      "display_name": "Raidcore Nexus",
+      "display_name": "Nexus",
       "description": "Nexus is a next-gen Addon Manager & Loader for Guild Wars 2. It provides an API and Framework, which keeps your plugins always up-to-date. No fidgeting with DLL files, crashing games after updates or inconsistent behaviour across addons.",
       "tooltip": "A next-gen Addon Manager & Loader for Guild Wars 2",
       "authors": "DeltaGW2 (Raidcore)",
