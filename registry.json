@@ -479,7 +479,7 @@
       "required_addons": [],
       "conflicts": [],
       "actions": []
-    }
+    },
     {
       "internal_name": "selectRender",
       "display_name": "SelectRenderer",
